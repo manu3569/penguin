@@ -1,0 +1,45 @@
+{
+  "name": "penguin",
+  "version": "1.0.0",
+  "description": "Application for handling trial class sign-up.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --hot --devtool eval --progress --colors --content-base build",
+    "deploy": "NODE_ENV=production webpack -p"
+  },
+  "keywords": [
+    "class",
+    "sign-up",
+    "crossfit",
+    "gym",
+    "trial",
+    "free"
+  ],
+  "author": "Manuel Neuhauser",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^4.7.3",
+    "compression": "^1.4.1",
+    "domready": "^1.0.7",
+    "express": "^4.12.2",
+    "morgan": "^1.5.1",
+    "react": "^0.12.2",
+    "underscore": "^1.8.2"
+  },
+  "devDependencies": {
+    "babel-core": "^4.7.1",
+    "babel-loader": "^4.1.0",
+    "css-loader": "^0.9.1",
+    "debug": "^2.1.2",
+    "jsx-loader": "^0.12.2",
+    "livereload": "^0.3.6",
+    "node-jsx": "^0.12.4",
+    "react-hot-loader": "^1.1.7",
+    "sass-loader": "^0.4.1",
+    "style-loader": "^0.8.3",
+    "webpack": "^1.7.2",
+    "webpack-dev-middleware": "^1.0.11",
+    "webpack-dev-server": "^1.7.0"
+  }
+}
